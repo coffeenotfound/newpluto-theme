@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TODO: Adjust selection and currentLine colors -->
+<!-- TODO: Test out making the field more contrastful -->
+
+<colorTheme id="0" name="New Pluto" version="0.1.0" modified="2019-05-22 10:10:00" author="coffeenotfound">
+	<!-- base00 - Default Background -->
+	<!-- #292D38 -->
+	<!-- #252933 -->
+	<background color="#252933" />
+	
+	<!-- base01 - Lighter Background -->
+	<currentLine color="#384453" />
+	
+	<searchResultIndication color="#384453" />
+    <filteredSearchResultIndication color="#384453" />
+    <occurrenceIndication color="#384453" />
+    <writeOccurrenceIndication color="#384453" />
+	
+	<!-- base02 - Selection Background -->
+	<selectionBackground color="#4f5d6f" />
+	
+	<!-- base03 - Comments, Invisibles, Line Hightlighting -->
+	<!-- #b3bcd4 -->
+	<!-- #AFB8CE -->
+	<singleLineComment color="#9AA3B7" italic="false" />
+    <multiLineComment color="#9AA3B7" italic="false" />
+	<annotation color="#9AA3B7" />
+	<javadoc color="#9AA3B7" italic="false" />
+	
+	<!-- base04 - Dark Foreground -->
+	<!-- #eff3ff -->
+	<bracket color="#c6d5e1" />
+	
+	<!-- base05 - Default Foreground, Caret, Delimiters, Operators -->
+	<!-- #EBEBEF -->
+	<!-- #E6EFF7 -->
+	<!-- #E4E7EB -->
+	<!-- #D2D7DD -->
+	<foreground color="#D2D9E0" />
+	<selectionForeground color="#D2D9E0" />
+	
+	
+	<!-- #C3DDF4 -->
+	<!-- #C4DBED-->
+	<localVariable color="#BCDBF2" bold="false" italic="false" />
+	<localVariableDeclaration color="#BCDBF2" bold="false" italic="false" />
+	<parameterVariable color="#BCDBF2" />
+	
+	
+	<!-- base06 - Light Foreground -->
+	<operator color="#BACAD6" />
+	
+	<!-- base07 - Light Background (Not often used) -->
+	<lineNumber color="#636772" />
+	
+	<!-- base08 - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted -->
+	<field color="#9cd9ff" />
+    <typeArgument color="#9cd9ff" bold="false" italic="true" />
+    <typeParameter color="#9cd9ff" bold="false" italic="false" />
+	
+	<!-- base09 - Integers, Boolean, Constants, XML Attributes, Markup Link Url -->
+	<number color="#f2ef70" />
+	<constant color="#f2ef70" />
+	
+	<string color="#f895a3" />
+	
+	<!-- base0A - Classes, Markup Bold, Search Text Background -->
+	<!-- #76e4c8 -->
+	<class color="#6CF0C2" bold="false" italic="true" />
+    <interface color="#6CF0C2" bold="false" italic="true" />
+	<enum color="#6CF0C2" bold="false" italic="true" />
+	
+	<!-- base0B - Strings, Inherited Class, Markup Code, Diff Inserted -->
+	<staticField color="#8cc3f9" />
+	<staticFinalField color="#8cc3f9" />
+	
+	<javadocLink color="#8cc3f9" italic="false" />
+    <javadocTag color="#8cc3f9" italic="false" />
+    <javadocKeyword color="#8cc3f9" italic="false" />
+	
+	<!-- base0C - Support, Regular Expressions, Escape Characters, Markup Quotes -->
+	
+	<!-- base0D - Functions, Methods, Attribute IDs, Headings -->
+	<!-- #89f99a -->
+	<!-- #96EA96-->
+	<!-- #E6EFF7 -->
+	<method color="#D2D9E0" bold="false" italic="false" />
+	<methodDeclaration color="#D2D9E0" bold="false" italic="false" />
+	<inheritedMethod color="#D2D9E0" bold="false" italic="false" />
+	<abstractMethod color="#D2D9E0" bold="false" italic="false" />
+	<staticMethod color="#D2D9E0" bold="false" italic="false" />
+	
+	<!-- base0E - Keywords, Storage, Selector, Markup Italic, Diff Changed -->
+	<!-- #bf9ed7 -->
+	<keyword color="#D5A8E0" bold="false" />
+	<commentTaskTag color="#D5A8E0" italic="false" bold="true" />
+	
+	<!-- base0F - Deprecated, Opening/Closing Embedded Language Tags -->
+	<deprecatedMember color="#f78467" underline="false" strikethrough="true" italic="true" />
+</colorTheme>
